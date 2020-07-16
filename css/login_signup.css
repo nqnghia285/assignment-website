@@ -1,0 +1,31 @@
+html {
+  background-color: #363636;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #363636;
+}
+.hero {
+  position: relative;
+}
+.notification {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.button {
+  margin-top: 10px;
+}
+
+.link-info {
+  text-decoration: none !important;
+  color: #3298dc !important;
+  font-size: large !important;
+}
+
+.link-success {
+  text-decoration: none !important;
+  color: #48c774 !important;
+  font-size: large !important;
+}

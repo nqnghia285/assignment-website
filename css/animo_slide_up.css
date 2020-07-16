@@ -1,0 +1,37 @@
+/* Class animoSlideUp */
+.animo-slide-up {
+    width: auto;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    text-align: left;
+    line-height: 40px;
+    cursor: pointer;
+    position: relative;
+    transition: .5s ease-out;
+    overflow: hidden;
+    z-index: 9;
+    color: white !important;
+    background: hsl(0, 0%, 21%) !important;
+    border-radius: 4px;
+}
+
+.animo-slide-up::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    background-color: #00c4a7 !important;
+    transition: transform .2s ease-out;
+    z-index: -1;
+}
+
+.animo-slide-up:hover::after {
+    transform: translateY(0);
+    transition: transform .2s ease-in;
+}

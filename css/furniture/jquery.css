@@ -1,0 +1,15 @@
+@media screen and (max-width: 1023px) {
+  .hotline-phone-ring-wrap {
+    left: calc(100% - 110px);
+    margin-right: 110px;
+  }
+
+  .hotline-bar {
+    display: none;
+  }
+}
+@media screen and (max-width: 414px) {
+  table {
+    font-size: xx-small;
+  }
+}

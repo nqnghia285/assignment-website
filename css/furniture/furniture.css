@@ -1,0 +1,22 @@
+table, tr, th, td {
+  cursor: pointer;
+}
+
+th, td {
+  text-align: left;
+}
+
+
+
+table {
+  margin: 20px;
+}
+
+h4 {
+  margin: 20px;
+  margin-top: 100px;
+}
+
+p {
+  text-align: justify;
+}
